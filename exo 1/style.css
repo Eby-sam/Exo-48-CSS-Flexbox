@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+#div1, #div2, #div3, #div4 {
+    width: 50px;
+    border: 1px solid black;
+}
+
+#div5, #div6, #div7, #div8 {
+    width: 50px;
+    border: 1px solid black;
+}
+
+#div1, #div6, #div9, #div14, #div17, #div22{
+    background-color: #56d556;
+}
+
+#div2, #div7, #div10, #div15, #div18, #div23{
+    background-color: #56b1d5;
+}
+
+#div3, #div8, #div11, #div16, #div19, #div24{
+    background-color: #a456d5;
+}
+
+#div4, #div12, #div20 {
+    background-color: #d59156;
+}
+
+#div5, #div13, #div21 {
+    background-color: #f50909;
+}
+
+#container2 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#div9, #div10, #div11, #div12 {
+    width: 100px;
+    height: 50%;
+    border: 1px solid black;
+}
+
+#div13, #div14, #div15, #div16 {
+    width: 100px;
+    height: 50%;
+    border: 1px solid black;
+}
+
+#container3 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#div17, #div18, #div19, #div20 {
+    width: 90px;
+    height: 50%;
+    border: 1px solid black;
+}
+
+#div21, #div22, #div23, #div24 {
+    width: 90px;
+    height: 48%;
+    border: 1px solid black;
+}

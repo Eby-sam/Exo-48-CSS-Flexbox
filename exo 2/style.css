@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+}
+
+#container4 {
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.block {
+    border: 1px solid black;
+    width: 95px;
+    height: 95px;
+}
+
+#largeBlock {
+    border: 1px solid black;
+    align-self: stretch;
+    width: 390px;
+    height: 95px;
+    background-color: #f50909;
+}
+
+#block1, #block5 {
+    background-color: #56d556;
+}
+
+#block2, #block6 {
+    background-color: #56b1d5;
+}
+
+#block3, #block7 {
+    background-color: #a456d5;
+}
+
+#block4, #block8 {
+    background-color: #d59156;
+}
+
+#container5 {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 500px;
+}
+
+#blockA1 {
+    width: 95px;
+    height: 95px;
+    border: 1px solid black;
+    background-color: #56d556;
+}
+
+#blockA2 {
+    width: 95px;
+    height: 95px;
+    border: 1px solid black;
+    background-color: #56b1d5;
+}
+
+#blockA3 {
+    width: 95px;
+    height: 95px;
+    border: 1px solid black;
+    background-color: #a456d5;
+}
+
+#blockA4 {
+    width: 95px;
+    height: 95px;
+    border: 1px solid black;
+    background-color: #d59156;
+}
+
+#blockA5 {
+    width: 95px;
+    height: 95px;
+    border: 1px solid black;
+    background-color: #f50909;
+}
+
+#container6 {
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#blockB1 {
+    width: 99px;
+    height: 150px;
+    background-color: #56d556;
+}
+#blockB6 {
+    width: 99px;
+    height: 150px;
+    background-color: #56d556;
+}
+
+#blockB2 {
+    width: 99px;
+    height: 150px;
+    background-color: #56b1d5;
+}
+
+#blockB7 {
+    width: 99px;
+    height: 150px;
+    background-color: #56b1d5;
+}
+
+#blockB3 {
+    width: 99px;
+    height: 150px;
+    background-color: #a456d5;
+}
+
+#blockB8 {
+    width: 99px;
+    height: 150px;
+    background-color: #a456d5;
+}
+
+#blockB4 {
+    width: 99px;
+    height: 150px;
+    background-color: #d59156;
+}
+#blockB5 {
+    width: 99px;
+    height: 150px;
+    background-color: #f50909;
+}
